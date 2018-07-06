@@ -1,6 +1,6 @@
 <?php
 
-namespace Modules\Page\Events;
+namespace Modules\Footer\Events;
 
 class FooterContentIsRendering
 {

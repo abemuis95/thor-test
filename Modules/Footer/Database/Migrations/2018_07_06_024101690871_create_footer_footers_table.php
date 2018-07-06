@@ -17,7 +17,7 @@ class CreateFooterFootersTable extends Migration
             $table->increments('id');
             // Your fields
             $table->integer('page_id')->unsigned();
-            $table->foreign('page_id')->references('id')->on('page_pages')->onDelete('cascade');
+            $table->foreign('page_id')->references('id')->on('page__pages')->onDelete('cascade');
             $table->timestamps();
         });
     }
