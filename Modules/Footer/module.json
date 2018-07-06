@@ -1,0 +1,17 @@
+{
+    "name": "Footer",
+    "alias": "footer",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\Footer\\Providers\\FooterServiceProvider",
+        "Modules\\Footer\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        
+    ],
+    "requires": []
+}
